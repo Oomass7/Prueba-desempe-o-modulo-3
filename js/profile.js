@@ -10,7 +10,7 @@ export function renderProfile() {
     <div class="box">
       <p><strong>Nombre:</strong> ${user.name}</p>
       <p><strong>Correo:</strong> ${user.email}</p>
-      <p><strong>Correo:</strong> ${user.rol}</p>
+      <p><strong>Rol:</strong> ${user.rol}</p>
     </div>
   `;
 }
