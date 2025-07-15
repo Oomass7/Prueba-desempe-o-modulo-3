@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Red Social SPA</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <section class="section">
+    <div class="container">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <strong class="navbar-item">Crud PB</strong>
+        </div>
+        <div class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="#home">Inicio</a>
+            <a class="navbar-item is-hidden" href="#profile" id="nav-profile">Perfil</a>
+            <a class="navbar-item is-hidden" href="#notes" id="nav-notes">Eventos</a>
+          </div>
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons" id="auth-buttons">
+                <a class="button is-primary" href="#register">Registro</a>
+                <a class="button is-light" href="#login">Iniciar sesión</a>
+              </div>
+              <div class="buttons" id="user-buttons" style="display: none;">
+                <a class="button is-danger" id="logout">Cerrar sesión</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="app"></div>
+    </div>
+  </section>
+</body>
+</html>

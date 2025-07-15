@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "name": "José Tomás Loaiza Rodríguez",
+      "email": "loaizarodrigueztomas@gmail.com",
+      "password": "tomas2004",
+      "id": 1,
+      "rol": "admin"
+    },
+    {
+      "name": "Juan Andres",
+      "email": "chicorreo.112@gmail.com",
+      "password": "andres123",
+      "id": 2,
+      "rol": "user"
+    }
+  ],
+  "events": [
+    {
+      "name": "Event Two",
+      "date": "2023-10-27",
+      "location": "ALLA",
+      "price": 200,
+      "description": "abcskudyvfbsluycbsaduiciub",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/disney-world-mickey-mouse-minnie-mouse-jpg-1655400733.jpg?crop=1xw:0.84375xh;center,top&resize=1200:*",
+      "status": "active",
+      "id": 1
+    }
+  ]
+}
